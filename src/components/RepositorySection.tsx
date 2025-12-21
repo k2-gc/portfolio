@@ -36,6 +36,13 @@ const repositoryList: Repository[] = [
     description: 'A simple GUI app to save video clips from a video file using Python and TKinter.',
     url: 'https://github.com/k2-gc/video-save-clip',
   },
+  {
+    title: 'Kawaii Terrarium for VSCode Extension',
+    techList: ['TypeScript', 'VSCode Extension API'],
+    description:
+      'A VSCode extension that adds a cute terrarium animation to your editor, providing a relaxing visual while you take breaks.',
+    url: 'https://github.com/k2-gc/kawaii-terrarium',
+  },
 ];
 
 function RepositorySection() {
