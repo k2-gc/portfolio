@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import RepositorySection from './components/RepositorySection';
 import SkillsSection from './components/SkillsSection';
 import AboutSection from './components/AboutSection';
+import ProductSliderSection from './components/ProductSliderSection';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <AboutSection />
           <SkillsSection />
           <RepositorySection />
+          <ProductSliderSection />
         </MainLayout>
       </ThemeProvider>
     </>
